@@ -1,0 +1,94 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    background-image: linear-gradient(to right, #000000, #111111, #444444, #999999);
+    flex-wrap: wrap;
+}
+
+.tituloeBotoes {
+    display: block;
+    text-align: center; 
+}
+
+.titulo {
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman';
+    margin-bottom: 1px;
+    text-align: center; 
+}
+
+.botao {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: transparent;
+    border: solid 2px white;
+}
+
+.botao:hover {
+    color: black;
+    text-transform: uppercase;
+    background-color: white;
+    border: solid 2px red;
+    cursor: pointer;
+}
+
+.botaoVolta {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 50px;
+    background-color: transparent;
+    border: solid 2px white;
+    display: none;
+}
+
+.botaoVolta:hover {
+    color: black;
+    text-transform: uppercase;
+    background-color: white;
+    border: solid 2px red;
+    cursor: pointer;
+}
+
+.tituloMaterias {
+    text-transform: uppercase;
+    font-family: 'Times New Roman';
+    color: white;
+    font-size: 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    text-align: center; 
+}
+
+.experiencia,
+.filosofia,
+.cyberfisicos,
+.algoritmos,
+.logica {
+    display: none;
+    width: 900px;
+    text-align: justify; 
+    margin-top: 10px;
+}
+
+.texto {
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.imagem {
+    justify-content: center;
+    margin-top: 30px ;
+    width: 65%;
+    height: auto;
+}
